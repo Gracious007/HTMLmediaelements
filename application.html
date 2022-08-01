@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center" style="color:blue">Red Ant Labs</h1>
+    <hr>
+    <div align= "center" class="links">
+        <a href="home.html">Home</a>
+        <a href="application.html">Application Form</a>
+    </div>
+    <hr>
+    <form action="server.php" method="post">
+        <fieldset>
+            <legend align="center">Application form</legend>
+            <table align="center">
+                <tr>
+                    <td>Name</td>
+                    <td><input type='text' placeholder='Enter your name'></td>
+                </tr>
+                <tr>
+                    <td>Application Number</td>
+                    <td><input type='text' placeholder='KU2022CSE1028'></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type='password'  placeholder='Enter your password'></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type='date'></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type='number'></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type='number'  placeholder='Enter Mobile Number'></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type='email'  placeholder='Enter Email id'></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="fav_language" value="MALE">
+                        <label for="male">MALE</label>
+                        <input type="radio" id="female" name="fav_language" value="FEMALE">
+                        <label for="female">FEMALE</label>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="message" rows="10" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Languages Known</td>
+                    <td><input type="checkbox" id="English" name="English" value="English">
+                        <label for="English"> English</label>
+                        <input type="checkbox" id="Tamil" name="Tamil" value="Tamil">
+                        <label for="Tamil"> Tamil</label>
+                        <input type="checkbox" id="Malayalam" name="Malayalam" value="Malayalam">
+                        <label for="Malayalam"> Malayalam</label>
+                        <input type="checkbox" id="Telugu" name="Telugu" value="Telugu">
+                        <label for="Telugu"> Telugu</label>
+                        <input type="checkbox" id="Hindi" name="Hindi" value="Hindi">
+                        <label for="Hindi"> Hindi</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="course">Select your course:</label>
+                    </td>
+                    <td>
+                        <select name="course" id="course">
+                        <option value="CSE">B.Tech Computer science</option>
+                        <option value="Mech">Mechanical Engineering</option>
+                        <option value="civil">Civil Engineering</option>
+                        <option value="aerospace">Aerospace Engineering</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Upload your photo:</td>
+                    <td><input type="file" id="myfile" name="filename"><br>
+                    <progress id="myfile" max="100" value="50">50%</progress>
+                    <p>50% uploading completed</p></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                </tr>
+            </table>
+            
+        </fieldset>
+       
+    </form>
+    
+
+
+   
+</body>
+</html>
